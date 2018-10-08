@@ -16,6 +16,8 @@ Exemple d'entrée:
  */
 
 function getMultiplesOf(numbers, n) {
+  const newArray = numbers.filter(number => number % n === 0);
+  return newArray;
 }
 
 // Ne pas modifier l'export

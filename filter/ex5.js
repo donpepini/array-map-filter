@@ -39,6 +39,8 @@ Exemple d'entrée:
  */
 
 function searchWordFilter(items, search) {
+  const newArray = items.filter(item => item.toLowerCase().includes(search));
+  return newArray;
 }
 
 // Ne pas modifier l'export
